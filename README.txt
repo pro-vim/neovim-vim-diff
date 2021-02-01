@@ -117,7 +117,7 @@ neovim-only features:
 . The vim.lsp Lua module --- a framework for building LSP plugins. [WIP]
 . Nvim integrates the tree-sitter library for incremental parsing of buffers.
   It does not provide the tree-sitter parsers, these must be built separately.
-  Provides tree-sitter AST (CST?) queries and syntax highlighting. [WIP]
+  Provides tree-sitter syntax tree queries and syntax highlighting. [WIP]
 
 Events:
 . BufModifiedSet --- After the 'modified' value of a buffer has been changed.
